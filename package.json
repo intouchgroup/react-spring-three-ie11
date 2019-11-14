@@ -1,0 +1,38 @@
+{
+  "name": "@intouchgroup/react-spring-three-ie11",
+  "version": "2.0.0",
+  "description": "Test build process for React-Spring and ThreeJS in IE11",
+  "main": "bundle.js",
+  "scripts": {
+    "start": "npm run serve",
+    "clean": "rimraf ./dist/",
+    "build": "npm run clean && webpack",
+    "serve": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/intouchgroup/react-spring-three-ie11.git"
+  },
+  "author": "Intouch Group",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "7.6.4",
+    "@babel/preset-env": "7.6.3",
+    "@babel/preset-react": "7.6.3",
+    "babel-loader": "8.0.6",
+    "copy-webpack-plugin": "5.0.4",
+    "core-js": "3.4.0",
+    "file-loader": "4.2.0",
+    "path": "0.12.7",
+    "rimraf": "3.0.0",
+    "webpack": "4.41.1",
+    "webpack-cli": "3.3.9",
+    "webpack-dev-server": "3.8.2"
+  },
+  "dependencies": {
+    "react": "16.10.2",
+    "react-dom": "16.10.2",
+    "react-spring": "9.0.0-beta.34",
+    "three": "0.109.0"
+  }
+}
