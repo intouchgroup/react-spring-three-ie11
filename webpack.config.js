@@ -28,6 +28,7 @@ const commonConfig = {
 				loader: 'babel-loader',
 				include: [
 					path.resolve(__dirname, 'node_modules', 'react-spring'),
+					path.resolve(__dirname, 'node_modules', 'three'),
 					SOURCE_DIRECTORY,
 				],
 			},
